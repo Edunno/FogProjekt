@@ -12,8 +12,7 @@ package calculators;
 public class LogCalculator {
  
     public int mainCalc(double a, double b){
-        int logs = 0;
-        logs = ((int) (a / 2.5)+1) * ((int) (b/2.5)+1);
+        int logs = ((int) (a / 2.5)+1) * ((int) (b/2.5)+1);
         return logs;
     }
 }
